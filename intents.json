@@ -1,0 +1,80 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hii, Jarvis",
+                "Hi",
+                "How are you?",
+                "Is anyone there?",
+                "Hello",
+                "Hey jarvis"
+            ],
+            "responses": [
+                "What can I do for you ?",
+                "Good to see you again",
+                "Hi there, how can I help? ",
+                "Hii, how are you",
+                "Hey! what are you doing"
+            ]
+        },
+        {
+            "tag": "tell_info",
+            "patterns": [
+                "who are you ?",
+                "what is your name ?",
+                "tell about you",
+                "tell your information"
+            ],
+            "responses": [
+                "I am jarvis, a AI. I can do anything.",
+                "My name is Jarvis. I am a very powerful AI"
+            ]
+        },
+        {
+            "tag": "bot_features",
+            "patterns": [
+                "what can you do ?",
+                "what are your features ?"
+            ],
+            "responses": [
+                "I can do everything",
+                "I am a AI, I can do anything"
+            ]
+        },
+        {
+            "tag": "sing_a_song",
+            "patterns": [
+                "sing a song",
+                "can you sing ?",
+                "Try to sing",
+                "sing like me"
+            ],
+            "responses": [
+                "Johny Johny (Yes Papa) Eating sugar? (No, papa) Telling lies? (No, papa) Open your mouth (Ah, ah, ah!) ohny Johny (Yes Papa) Eating sugar? (No, papa) Telling lies? (No, papa) Open your mouth (Ah, ah, ah!)"
+            ]
+        },
+        {
+            "tag": "love_me",
+            "patterns": [
+                "i love you",
+                "do you love me",
+                "will you marry me"
+            ],
+            "responses": [
+                "Shut up, I am a machine"
+            ]
+        },
+        {
+            "tag": "laugh",
+            "patterns": [
+                "can you laugh",
+                "do you laugh like me",
+                "try to laugh"
+            ],
+            "responses": [
+                "HaHaHaa, HaHaHaa"
+            ]
+        }
+    ]
+}
